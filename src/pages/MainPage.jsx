@@ -1,7 +1,4 @@
-import { FooterNavbar } from "../Components/FooterNavbar"
-import { Navbar } from "../Components/Navbar"
-import { OutfitSection } from "../Components/OutfitSection"
-import { TemplatesBar } from "../Components/TemplatesBar"
+import { OutfitSection, TemplatesBar } from "../Components"
 
 export const MainPage = () => {
   return (

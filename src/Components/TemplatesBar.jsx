@@ -1,5 +1,5 @@
-import { FooterNavbar } from "./FooterNavbar"
-import { Navbar } from "./Navbar"
+import { FooterNavbar, Navbar } from "./"
+
 
 export const TemplatesBar = ({children}) => {
   return (

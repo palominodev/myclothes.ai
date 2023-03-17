@@ -1,4 +1,4 @@
-import { OutfitCard } from "./OutfitCard"
+import { OutfitCard } from "./"
 
 export const OutfitSection = ({title}) => {
   return (
