@@ -4,7 +4,9 @@ import Webcam from 'react-webcam'
 const videoConstraints = {
   width: 1280,
   height: 720,
-  facingMode: "user"
+  facingMode: {
+    exact: 'environment',
+  }
 };
 
 export const QRPage = () => {
@@ -15,6 +17,7 @@ export const QRPage = () => {
       screenshotFormat="image/jpeg"
       width={1280}
       videoConstraints={videoConstraints}
+      mirrored={true}
   >
     {({ getScreenshot }) => (
       <button
