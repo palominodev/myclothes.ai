@@ -1,7 +1,10 @@
-import { MainPage } from "./pages"
+import { MyClothesProvider } from "./context/MyClothesProvider"
+import { MyClothesRoutes } from "./Router/MyClothesRoutes"
 
 export const MyClothesAI = () => {
   return (
-    <MainPage />
+    <MyClothesProvider>
+        <MyClothesRoutes />
+    </MyClothesProvider>
   )
 }
