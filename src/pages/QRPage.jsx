@@ -17,8 +17,7 @@ export const QRPage = () => {
       screenshotFormat="image/jpeg"
       width={1280}
       videoConstraints={videoConstraints}
-      mirrored={true}
-  >
+    >
     {({ getScreenshot }) => (
       <button
         onClick={() => {
